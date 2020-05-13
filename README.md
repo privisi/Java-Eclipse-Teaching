@@ -11,6 +11,6 @@ Exercises for this week:
   2. Store the result in an int
   3. Times 2 doubles together
   4. Store the result in another int
-  5. Print's out the largest and smallest int;
-  For example: "Largest number: 53   Smallest number: 32"\n
-  (hint: use Math.max and Math.min)
+  5. Print's out the largest and smallest int
+ For example: "Largest number: 53   Smallest number: 32"
+ (hint: use Math.max and Math.min)
