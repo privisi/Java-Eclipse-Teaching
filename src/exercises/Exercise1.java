@@ -12,6 +12,15 @@ public class Exercise1 {
 		// 4 + 2 = 6
 		// double 6 = 12
 		
+		
+		double FirstNumber = 67;
+		double SecondNumber = 88;
+		double TotalNumber = FirstNumber + SecondNumber;
+		System.out.println(TotalNumber * 2);
+		//System.out.println((FirstNumber + SecondNumber) * 2);
+	
+			
+		
 	}
 
 }
