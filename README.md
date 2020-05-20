@@ -7,6 +7,7 @@ Exercises for this week:
 1. Change the game we made this week
 
 2. Write a program that fills an array
+
   int[] minusNumbers = new int[1000]
   Use a for loop to fill the array from 1000 to 1
   For example
@@ -18,6 +19,7 @@ Exercises for this week:
   
 Bonus challenge:
 3. Write a program that fills an array
+
    int[][] grid = new int[10][10]
    The numbers in grid should be 0 to 9, 10 to 19, 20 to 29 ... 90 to 99
    For example
