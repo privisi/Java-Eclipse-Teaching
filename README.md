@@ -4,9 +4,10 @@ You can access everything we've done in the *src* folder
 
 Exercises for this week:
 
-1. Change the game we made this week
+1. Change the game we made this week.
 
-2. Write a program that fills an array
+2. Write a program that fills an array.
+
 
   int[] minusNumbers = new int[1000]
   Use a for loop to fill the array from 1000 to 1
@@ -18,7 +19,8 @@ Exercises for this week:
   minusNumbers[999] = 1
   
 Bonus challenge:
-3. Write a program that fills an array
+3. Write a program that fills an array.
+
 
    int[][] grid = new int[10][10]
    The numbers in grid should be 0 to 9, 10 to 19, 20 to 29 ... 90 to 99
