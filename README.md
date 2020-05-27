@@ -9,14 +9,15 @@ Exercises for this week:
 2. Write a program that fills an array.
 
 ```
-  int[] minusNumbers = new int[1000]
+  int[][] multiples = new int[10][10]
   Use a for loop to fill the array from 1000 to 1
   For example
-  minusNumbers[0] = 1000
-  minusNumbers[1] = 999
+  multiples[0][0] = 0         // 0 x 0
+  multiples[1][1] = 1         // 1 * 1
+  multiples[2][6] = 12        // 2 * 6
   ...
-  minusNumbers[998] = 2
-  minusNumbers[999] = 1
+  multiples[5][5] = 25        // 5 * 5
+  multiples[9][9] = 81        // 9 * 9
 ```
 Bonus challenge:
 3. Write a program that fills an array.
