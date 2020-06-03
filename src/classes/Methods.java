@@ -16,14 +16,18 @@ public class Methods {
 		CountFromTo(3, 6);
 		
 		Add(123, 456);
+		
+		double bob = 3/2.0;
+		System.out.println(bob);
 	}
 	
 	// Method
-	static void Hello(){
+	public static void Hello(){
 		System.out.println("Hello");
 	}
 	
-	// Method with parameter
+	// Method with parameter 
+	// The parameter is: String name
 	static void HelloName(String name){
 		System.out.println("Hello there " + name);
 	}
