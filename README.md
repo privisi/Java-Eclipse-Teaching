@@ -48,9 +48,9 @@ the factorial result as an int.
 ```
 
 5. Create a method that asks the user for 2 doubles, first and second,
-and then asks the user for an instruction of either "add" "subtract" "multiply" "divide".
+and then asks the user for an instruction of either "add" "subtract" "multiply" "divide".  
 Use a switch/case statement to detect what instruction is being used and do the
-correct calculation.
+correct calculation.  
 Return the final result
 ```
   For example
@@ -81,9 +81,9 @@ the total sum of everything in the array as an int.
   AddAll(add) should return: 15   // 1 + 2 + 3 + 4 + 5
   
 ```
-**Bonus Challenge (Very Hard, I don't expect you to complete this but give it an attempt)**
-7. Create an int array that goes up in increments of 1, starting from 1 (1, 2, 3 ...)
-Then use a for loop to add each value inside the array to the next value.
+**Bonus Challenge (Very Hard, I don't expect you to complete this but give it an attempt)**  
+7. Create an int array that goes up in increments of 1, starting from 1 (1, 2, 3 ...)  
+Then use a for loop to add each value inside the array to the next value.  
 The loop should start in the second position so that you can add the first value to the second value.
 ```
 For example
