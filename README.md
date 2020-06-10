@@ -12,6 +12,7 @@ It should be show something like:   13, 33, 2, 42, 23, 66, 54, 4, 74 ... (random
 Then swap the value of each pair of values with each other:
 A pair is the value 0 and value 1, value 2 and value 3, value 4 and value 5 ..
 For example
+**Make sure you use an array with an even number of slots or this will not work**
 ```
   int[] swap = new int[6]
   // swap should be initialized with random numbers
