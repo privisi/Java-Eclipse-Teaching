@@ -46,11 +46,19 @@ Character hero = new Character();
 Enemy enemy = new Enemy();
 ...
 
-  (This is in the enemy class)
+  (This is in the Character class)
+        public void TakeDamage(int damage){
+          health -= damage;
+        }
+  (This is in the Character class)
+
+
+  (This is in the Enemy class)
         public void HitCharacter(Character c){
           c.TakeDamage(3);
         }
-  (This is in the enemy class)
+  (This is in the Enemy class)
+  
 
 enemy.HitCharacter(hero);
 
