@@ -41,7 +41,7 @@ The game should run with something like this:
 Try to write this program using classes and methods.
 I will not tell you what classes or methods to make, so you will have to decide them yourself.
 
-The program should display grass like this:
+The program should display a garden with grass like this:
 ```
   .....
   .....
@@ -70,3 +70,6 @@ Entering c should cut all the grass and reset the garden to:
   .....
   .....
 ```
+
+Tip: System.out.print() does not start a new line after printing <br/>
+while System.out.println() starts a new line after printing
