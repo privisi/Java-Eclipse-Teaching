@@ -4,6 +4,37 @@ You can access everything we've done in the *src* folder
 
 Exercises for this week:
 
+**------------Do this in a new class ------------**
+
+Fill an array using random numbers between 0 - 100 <br/>
+Print out everything in the array on a straight line (use System.out.print)<br/>
+It should be show something like:   13 33 2 42 23 66 54 4 74... (random numbers)<br/>
+Then swap the value of each pair of values with each other:
+A pair is the value 0 and value 1, value 2 and value 3, value 4 and value 5 ..
+For example
+```
+  int[] swap = new int[6]
+  // swap should be initialized with random numbers
+  // for this example, assume swap is:
+  // 1 2 3 4 5 6
+  
+  Swap the values inside swap:
+  1 2 3 4 5 6 
+  becomes
+  2 1 4 3 6 5
+  swap[0] becomes swap[1] and swap[1] becomes swap[0]
+  swap[2] becomes swap[3] and swap[3] becomes swap[2]
+  swap[4] becomes swap[5] and swap[5] becomes swap[4]
+  
+  and then print out the array again.
+  
+  hint: You will need to use a temporary variable to store one of the values
+        in order to swap them.
+```
+
+
+
+
 **------------Do this in a new project ------------**
 
 **Write a program using classes.**
