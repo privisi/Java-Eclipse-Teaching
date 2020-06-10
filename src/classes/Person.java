@@ -11,6 +11,13 @@ public class Person {
 		System.out.println(food.damage);
 		
 		food.Eat();
+		
+		
+		Apple[] lotsOfFood = new Apple[100];
+		for(int i = 0; i < lotsOfFood.length; i++){
+			lotsOfFood[i] = new Apple();
+			lotsOfFood[i].Eat();
+		}
 	}
 
 }
