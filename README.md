@@ -50,7 +50,7 @@ The program should display grass like this:
 ```
 
 When you enter g, each grass should have a 1/4 chance to grow.
-Grass will grow from   .   ->   ,  ->  /
+Grass will grow from   .  to   ,  to  / <br/>
 So it might look like this after 1 grow
 ```
   .,..,
