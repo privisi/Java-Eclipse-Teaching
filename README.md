@@ -19,6 +19,8 @@ For example:
   // for this example, assume swap is:
   // 1 2 3 4 5 6
   
+  Print out the values inside swap so we know what they are
+  
   Swap the values inside swap:
   1 2 3 4 5 6 
   becomes
@@ -27,7 +29,7 @@ For example:
   swap[2] becomes swap[3] and swap[3] becomes swap[2]
   swap[4] becomes swap[5] and swap[5] becomes swap[4]
   
-  and then print out the array again.
+  and then print out the swap again.
   
   hint: You will need to use a temporary variable to store one of the values
         in order to swap them.
