@@ -9,14 +9,19 @@ Exercises for this week:
 **Write a program using classes.**
 
 Create classes for:
-- Character (this class contains main)
+- Battle (this class contains main)
+- Character 
 - Enemy
 - Weapon
 - Potion
 
 Create the following in each class (You should try to use methods):
 
+Battle should have main and run the fight in a while loop and take inputs. <br/>
+This is where all your objects (Character, Enemy etc.) are created.
+
 The character should have health, have a weapon and have multple potions.
+The character should be able to attack the enemy using the weapon.
 
 The enemy should have health and a random damage range (such as 5-10 damage)<br/>
 The enemy should be able to attack the player
@@ -35,6 +40,23 @@ The game should run with something like this:
   Potions left: 4
   a - light attack | h - heavy attack | p - potion
 ```
+Note: try to create methods that take object parameters such as:
+```
+Character hero = new Character();
+Enemy enemy = new Enemy();
+...
+
+  (This is in the enemy class)
+        public void HitCharacter(Character c){
+          c.TakeDamage(3);
+        }
+  (This is in the enemy class)
+
+enemy.HitCharacter(hero);
+
+// this makes it so that the Character you put the parameters inside will take damage from the enemy.
+```
+This is just an example, you will have to create your own methods.
 
 **------------Do this in a new project ------------**
 
