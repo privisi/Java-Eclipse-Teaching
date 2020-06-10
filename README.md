@@ -8,7 +8,7 @@ Exercises for this week:
 
 Fill an array using random numbers between 0 - 100 <br/>
 Print out everything in the array on a straight line (use System.out.print)<br/>
-It should be show something like:   13 33 2 42 23 66 54 4 74... (random numbers)<br/>
+It should be show something like:   13, 33, 2, 42, 23, 66, 54, 4, 74 ... (random numbers)<br/>
 Then swap the value of each pair of values with each other:
 A pair is the value 0 and value 1, value 2 and value 3, value 4 and value 5 ..
 For example
