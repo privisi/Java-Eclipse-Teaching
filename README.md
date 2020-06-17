@@ -6,15 +6,19 @@ Exercises for this week:
 
 **------------Do this in a new class ------------**
 
-Fill an array using random numbers between 0 - 100 <br/>
+Fill an array with even slots with random numbers <br/>
 Print out everything in the array on a straight line (use System.out.print)<br/>
 It should be show something like:   13, 33, 2, 42, 23, 66, 54, 4, 74 ... (random numbers)<br/>
-Then swap the value of each pair of values with each other:<br/>
-A pair is the value 0 and value 1, value 2 and value 3, value 4 and value 5 ...<br/>
+Then swap the first with the last, the 2nd with the 2nd last... and so on:<br/>
 **Make sure you use an array with an even number of slots or this will not work**<br/>
+
+**Make sure this can work with any even slots amount (2, 6, 18, 400 etc.)**<br/>
+**You can only use the swap array, no creating other arrays**<br/>
 For example:
 ```
-  int[] swap = new int[6]
+  int amount = 6
+  // once it works with 6, make sure it works with 100 aswell
+  int[] swap = new int[amount]
   // swap should be initialized with random numbers
   // for this example, assume swap is:
   // 1 2 3 4 5 6
@@ -24,18 +28,66 @@ For example:
   Swap the values inside swap:
   1 2 3 4 5 6 
   becomes
-  2 1 4 3 6 5
-  swap[0] becomes swap[1] and swap[1] becomes swap[0]
+  6 5 4 3 2 1
+  
+  swap[0] becomes swap[5] and swap[5] becomes swap[0]
+  swap[1] becomes swap[4] and swap[4] becomes swap[1]
   swap[2] becomes swap[3] and swap[3] becomes swap[2]
-  swap[4] becomes swap[5] and swap[5] becomes swap[4]
   
   and then print out the swap again.
-  
-  hint: You will need to use a temporary variable to store one of the values
-        in order to swap them.
 ```
 
+**------------Do this in our school project ------------**
 
+Create classes for:
+- Student
+- Teacher
+- Class
+- SchoolDay
+- Main (this is where your program runs)
+
+A student should have a name, a student id, and marks for english, math, history etc... you can make these up<br/>
+
+A student should also have a random learning rate from 50 to 100<br/>
+
+A teacher should have a name, a skill level and a subject they teach.
+The skill level should be between 1 and 4;
+You should make a teacher for every subject you decide to add.
+
+A class should have a teacher and students
+
+When a student attends and learns in a class, his marks go up by the teachers skill level. This mark should only be for<br/>
+what the subject teacher teaches.
+
+A schoolday should have 4 classes<br/>
+Each class should assign a random teacher, and assign all students<br/>
+for example, a student with an learning rate of 100 has a 100% chance of gaining marks in the subject, while<br/>
+an learning rate of 50 has a 50% of gaining marks. A student with an learning rate of 75 should<br/>
+have a chance of 75% of gaining marks.
+
+As a schoolday has 4 classes, this should happen four times, once for each class.
+
+After all the calculation has done, print out for each:
+The students name, the student id, and the all the subject marks.
+
+Do this with 5 students to begin with. 
+Your program should still work if you add or remove students.
+
+You should use methods, and constructors (you can see an example of a constructor in the Student class we did last lesson)
+
+after everything works
+
+you should modify schooldays so that its constructor can take a int parameter. This parameter should change<br/>
+how many classes there are in a schoolday, for example if i do ```new SchoolDay(10)```, there should be 10 classes that are run<br/>
+instead of 4. But if I leave it as ```new SchoolDay()```, it should by default be 4 classes.
+
+<br/><br/>
+**Fix last weeks homework**
+
+Use methods, classes, constructors etc. just like how we did in the school project.<br/>
+Make sure the grass program runs forever until we quit.<br/><br/>
+When you cut the grass, you should still be able to grow it after.<br/>
+Try to use a 2-dimensional array to store grass
 
 
 **------------Do this in a new project ------------**
