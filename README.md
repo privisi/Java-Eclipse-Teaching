@@ -90,7 +90,7 @@ When you cut the grass, you should still be able to grow it after.<br/>
 Try to use a 2-dimensional array to store grass
 
 
-**------------Do this in a new project ------------**
+**------------Battle Homework ------------**
 
 **Write a program using classes.**
 
@@ -152,7 +152,7 @@ enemy.HitCharacter(hero);
 ```
 This is just an example, you will have to create your own methods.
 
-**------------Do this in a new project ------------**
+**------------Grass Homework ------------**
 
 Try to write this program using classes and methods.<br/>
 I will not tell you what classes or methods to make, so you will have to decide them yourself.
