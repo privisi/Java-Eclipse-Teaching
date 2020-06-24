@@ -48,7 +48,7 @@ If you pick to cook food, add a random food from the array into the arraylist.<b
 Quit the loop by typing a letter / word / number of your choice.<br/>
 <br/>
 
-**------------Do this your battle game ------------**
+**------------Do this in your battle game ------------**
 
 5. ArrayList problem - hard<br/>
 **Use arraylist to store enemies.**<br/>
