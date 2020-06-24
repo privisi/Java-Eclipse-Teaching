@@ -5,37 +5,67 @@ You can access everything we've done in the *src* folder
 Exercises for this week:
 
 **------------Do this in a new class ------------**
-
-Fill an array with even slots with random numbers <br/>
-Print out everything in the array on a straight line (use System.out.print)<br/>
-It should be show something like:   13, 33, 2, 42, 23, 66, 54, 4, 74 ... (random numbers)<br/>
-Then swap the first with the last, the 2nd with the 2nd last... and so on:<br/>
-**Make sure you use an array with an even number of slots or this will not work**<br/>
-
-**Make sure this can work with any even slots amount (2, 6, 18, 400 etc.)**<br/>
-**You can only use the swap array, no creating other arrays**<br/>
-For example:
+1. Array problem<br/>
+Create a method that takes a paramater of int.<br/>
+The method should fill an array of size int with random numbers between 1 and 100 and print<br/>
+the largest number in the array.
 ```
-  int amount = 6
-  // once it works with 6, make sure it works with 100 aswell
-  int[] swap = new int[amount]
-  // swap should be initialized with random numbers
-  // for this example, assume swap is:
-  // 1 2 3 4 5 6
-  
-  Print out the values inside swap so we know what they are
-  
-  Swap the values inside swap:
-  1 2 3 4 5 6 
-  becomes
-  6 5 4 3 2 1
-  
-  swap[0] becomes swap[5] and swap[5] becomes swap[0]
-  swap[1] becomes swap[4] and swap[4] becomes swap[1]
-  swap[2] becomes swap[3] and swap[3] becomes swap[2]
-  
-  and then print out the swap again.
+an array of: 1 2 3 4 5 4 3 2 1 3 5 3 2 9 5 4
+should print 9
 ```
+2. Array problem<br/>
+Create a method of type int array that takes a parameter of int array.<br/>
+The method should shuffle all the numbers in the array randomly<br/>
+and return the shuffled array.
+```
+an array of: 1 2 3 4 5 6 7
+may return:  7 1 5 3 4 2 6
+```
+3. Array problem - hard<br/>
+Create a method that takes a paramater of int.<br/>
+The method should fill an array of size int with random numbers between 1 and 100 <br/>
+and return the array sorted from lowest to highest
+**you are not allowed to use existing methods. This method must do all the sorting by itself**
+```
+an array of:   7 1 5 3 4 2 6
+should return: 1 2 3 4 5 6 7
+```
+<br/>
+**------------Do this in a new class ------------**
+
+4. ArrayList problem<br/>
+Create an arraylist of string.<br/>
+Create an array of string.<br/>
+Fill the array with 10-20 names of food.<br/>
+add 5 random food to the arraylist from the array.<br/>
+Write a program that loops, and asks if you want to eat food or cook food.<br/>
+It should also show all the food available in the arraylist.<br/>
+If you pick to eat the food, it will then ask you for a food name.<br/>
+If the food exists in the arraylist, eat it and remove it from the list.<br/>
+If it doesn't, warn us that it doesn't exist and don't do anything.<br/>
+If there is no food in the first place, warn us and don't do anything.<br/>
+If you pick to cook food, add a random food from the array into the arraylist.<br/>
+Quit the loop by typing a letter / word / number of your choice.<br/>
+<br/>
+
+**------------Do this your battle game ------------**
+
+5. ArrayList problem - hard<br/>
+**Use arraylist to store enemies.**<br/>
+Change your battle game so that you can fight multiple enemies at the same time.<br/>
+Each enemy should be able to attack you, and you should be able to select which enemy to attack.<br/>
+You should probably make the character stronger or the enemies weaker etc. so you can survive.<br/>
+You should also have an option to spawn more enemies. <br/>
+You should have error checking for cases when there are no enemies, or if the player decides to attack<br/>
+an enemy that doesn't exist (for example you have 3 enemies but the player chooses to attack enemy 7).<br/>
+Killing an enemy removes it from the arraylist, spawning an enemy adds it to the arraylist.<br/>
+A suggestion would be to have enemies spawn with a name and a random number attatched to that name so<br/>
+you can differentiate them. For example: Goblin522 Goblin234 Goblien745...<br/>
+
+
+
+<br/><br/>
+**Finish last last weeks homework**
 
 **------------Do this in our school project ------------**
 
@@ -81,76 +111,13 @@ you should modify schooldays so that its constructor can take a int parameter. T
 how many classes there are in a schoolday, for example if i do ```new SchoolDay(10)```, there should be 10 classes that are run<br/>
 instead of 4. But if I leave it as ```new SchoolDay()```, it should by default be 4 classes.
 
-<br/><br/>
-**Fix last weeks homework**
 
 Use methods, classes, constructors etc. just like how we did in the school project.<br/>
 Make sure the grass program runs forever until we quit.<br/><br/>
 When you cut the grass, you should still be able to grow it after.<br/>
-Try to use a 2-dimensional array to store grass
+Try to use a 2-dimensional array to store grass<br/>
 
 
-**------------Battle Homework ------------**
-
-**Write a program using classes.**
-
-Create classes for:
-- Battle (this class contains main)
-- Character 
-- Enemy
-- Weapon
-- Potion
-
-Create the following in each class (You should try to use methods):
-
-Battle should have main and run the fight in a while loop and take inputs. <br/>
-This is where all your objects (Character, Enemy etc.) are created.
-
-The character should have health, have a weapon and have multple potions.
-The character should be able to attack the enemy using the weapon.
-
-The enemy should have health and a random damage range (such as 5-10 damage)<br/>
-The enemy should be able to attack the player
-
-The weapon should have a random damage range (such as 10-15 damage)<br/>
-The weapon should have multiple different types of attacks:<br/>
-- light (100% hit rate, lower damage)
-- heavy (50% hit rate, higher damage)
-
-The potions should heal a random amount (such as 30-40 health)<br/>
-The character should be able to use these potions until he runs out.
-
-The game should run with something like this:
-```
-  Player Health: 100 | Enemy Health: 400
-  Potions left: 4
-  a - light attack | h - heavy attack | p - potion
-```
-Note: try to create methods that take object parameters such as:
-```
-Character hero = new Character();
-Enemy enemy = new Enemy();
-...
-
-  (This is in the Character class)
-        public void TakeDamage(int damage){
-          health -= damage;
-        }
-  (This is in the Character class)
-
-
-  (This is in the Enemy class)
-        public void HitCharacter(Character c){
-          c.TakeDamage(3);
-        }
-  (This is in the Enemy class)
-  
-
-enemy.HitCharacter(hero);
-
-// this makes it so that the Character you put the parameters inside will take damage from the enemy.
-```
-This is just an example, you will have to create your own methods.
 
 **------------Grass Homework ------------**
 
