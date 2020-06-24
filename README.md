@@ -30,7 +30,7 @@ and return the array sorted from lowest to highest
 an array of:   7 1 5 3 4 2 6
 should return: 1 2 3 4 5 6 7
 ```
-<br/>
+
 **------------Do this in a new class ------------**
 
 4. ArrayList problem<br/>
