@@ -4,33 +4,22 @@ You can access everything we've done in the *src* folder
 
 Exercises for this week:
 
-**------------Do this in a new class ------------**
-1. Array problem<br/>
-Create a method that takes a paramater of int.<br/>
-The method should fill an array of size int with random numbers between 1 and 100 and print<br/>
-the largest number in the array.
-```
-an array of: 1 2 3 4 5 4 3 2 1 3 5 3 2 9 5 4
-should print 9
-```
-2. Array problem<br/>
-Create a method of type int array that takes a parameter of int array.<br/>
-The method should shuffle all the numbers in the array randomly<br/>
-and return the shuffled array.
-```
-an array of: 1 2 3 4 5 6 7
-may return:  7 1 5 3 4 2 6
-```
-3. Array problem - hard<br/>
-Create a method that takes a paramater of int.<br/>
-The method should fill an array of size int with random numbers between 1 and 100 <br/>
-and return the array sorted from lowest to highest
-**you are not allowed to use existing methods. This method must do all the sorting by itself**
-```
-an array of:   7 1 5 3 4 2 6
-should return: 1 2 3 4 5 6 7
-```
+**------------Do this in a new package or project ------------**
 
+1. Abstract Classes<br/>
+Create an abstract class for jobs.<br/>
+Create some abstract methods like DoJob.<br/>
+Create some random variables like name, age, job-title etc.<br/>
+Create some other classes to extend the job abstract class (doctor, fireman, teacher etc. you can make these up)<br/>
+Store a bunch of these jobs into a job arraylist.<br/>
+Go through the arraylist and call all the DoJob methods.<br/>
+You can try to add more to this if you want (loop + scanner etc.)<br/>
+
+
+
+<br/><br/>
+**Finish other homework**
+<br/>
 **------------Do this in a new class ------------**
 
 4. ArrayList problem<br/>
@@ -65,7 +54,7 @@ you can differentiate them. For example: Goblin522 Goblin234 Goblien745...<br/>
 
 
 <br/><br/>
-**Finish last last weeks homework**
+
 
 **------------Do this in our school project ------------**
 
