@@ -4,17 +4,39 @@ You can access everything we've done in the *src* folder
 
 Exercises for this week:
 
-**------------Do this in a new package or project ------------**
+**------------Do this in a new class ------------**
 
-1. Abstract Classes<br/>
-Create an abstract class for jobs.<br/>
-Create some abstract methods like DoJob.<br/>
-Create some random variables like name, age, job-title etc.<br/>
-Create some other classes to extend the job abstract class (doctor, fireman, teacher etc. you can make these up)<br/>
-Store a bunch of these jobs into a job arraylist.<br/>
-Go through the arraylist and call all the DoJob methods.<br/>
-You can try to add more to this if you want (loop + scanner etc.)<br/>
+1. HashMaps<br/>
+Create a class called Spell which has a name, mana cost and power variables inside it.<br/>
+Store a bunch of the spells inside a arraylist.<br/>
+Create a hashmap of <String, Spell>.<br/>
+Copy all of the spells from the arraylist into the hashmap, use the spell name as the key value.<br/>
 
+2. HashMaps - Casting Spells<br/>
+Create a variable that stores mana.<br/>
+Create a while loop with scanner input that asks which spell you want to cast.<br/>
+The while loop should print out how much mana you have every loop.<br/>
+When you type the spell name, it should cast it by saying "Casting SPELL-NAME: Boom! Damage XX"<br/>
+replace the spell-name and xx with the spells values.<br/>
+You should also minus the mana-cost from your mana.<br/>
+Once cast, you should remove the spell from the hashmap.<br/>
+
+3. HashMaps - Showing all spells (Hard) <br/>
+Extend the while loop to show you all available spells and the info of the spell (mana cost and power) every loop.<br/>
+This uses a for each loop for which I will teach you more in detail next week.<br/>
+Here is a hint on how to loop through all the keys and all the values in a hashmap.<br/>
+```
+// This loops through all the keys inside a hashmap
+HashMap<String, Weapon> weps = new ....
+weps.put("gun", new Weapon())
+weps.put("gun2", new Weapon())
+
+for (Weapon i : capitalCities.keySet()) {
+  System.out.println(i);
+}
+
+This will print out "gun" and "gun2"
+```
 
 
 <br/><br/>
@@ -105,48 +127,3 @@ Use methods, classes, constructors etc. just like how we did in the school proje
 Make sure the grass program runs forever until we quit.<br/><br/>
 When you cut the grass, you should still be able to grow it after.<br/>
 Try to use a 2-dimensional array to store grass<br/>
-
-
-
-**------------Grass Homework ------------**
-
-Try to write this program using classes and methods.<br/>
-I will not tell you what classes or methods to make, so you will have to decide them yourself.
-
-You can download my version of this program here to try it out: <br/>
-https://mega.nz/file/mAkEAKzT#X5pLOtlqOwqONqQhRSHs5CtpOEdw_oma8qftidt0jwU <br/>
-Run start.bat to start it. <br/>
-It won't run if you don't have java on your computer.
-
-The program should display a garden with grass like this:
-```
-  .....
-  .....
-  .....
-  g - grow | c - cut | q - quit
-```
-
-When you enter g, each grass should have a 1/4 chance to grow.
-Grass will grow from   .  to   ,  to  / <br/>
-So it might look like this after 1 grow
-```
-  .,..,
-  ...,.
-  .,..,
-```
-And like this after the 2nd grow
-```
-  ./.,,
-  ,../.
-  .,,.,
-```
-
-Entering c should cut all the grass and reset the garden to:
-```
-  .....
-  .....
-  .....
-```
-
-Tip: System.out.print() does not start a new line after printing <br/>
-while System.out.println() starts a new line after printing
