@@ -31,7 +31,7 @@ HashMap<String, Weapon> weps = new ....
 weps.put("gun", new Weapon())
 weps.put("gun2", new Weapon())
 
-for (Weapon i : capitalCities.keySet()) {
+for (String i : capitalCities.keySet()) {
   System.out.println(i);
 }
 
