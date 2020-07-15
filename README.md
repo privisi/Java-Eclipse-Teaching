@@ -17,7 +17,8 @@ When you smash a potion, ask which potion you want to smash, and remove it from 
 When a potion is drunk, display its name, effect and colour.<br/>
 Also add the effect into the arraylist<br/>
 When you choose cleanse, each effect should have a 25% chance of dissapearing.<br/><br/>
-In order to do this, you will probably need to use a foreach loop, as well as a forloop for deleting <br/>
+Show all potions available and all active efects in each loop<br/>
+In order to do this, you will probably need to use foreach loops, as well as a forloop for deleting <br/>
 (look at the deletion example we did).<br/><br/>
 
 **------------Do this in a new class ------------**<br/>
