@@ -6,57 +6,17 @@ Exercises for this week:
 
 **------------Do this in a new class ------------**
 
-1. HashMaps<br/>
-Create a class called Spell which has a name, mana cost and power variables inside it.<br/>
-Store a bunch of the spells inside a arraylist.<br/>
-Create a hashmap of <String, Spell>.<br/>
-Copy all of the spells from the arraylist into the hashmap, use the spell name as the key value.<br/>
-
-2. HashMaps - Casting Spells<br/>
-Create a variable that stores mana.<br/>
-Create a while loop with scanner input that asks which spell you want to cast.<br/>
-The while loop should print out how much mana you have every loop.<br/>
-When you type the spell name, it should cast it by saying "Casting SPELL-NAME: Boom! Damage XX"<br/>
-replace the spell-name and xx with the spells values.<br/>
-You should also minus the mana-cost from your mana.<br/>
-Once cast, you should remove the spell from the hashmap.<br/>
-
-3. HashMaps - Showing all spells (Hard) <br/>
-Extend the while loop to show you all available spells and the info of the spell (mana cost and power) every loop.<br/>
-This uses a for each loop for which I will teach you more in detail next week.<br/>
-Here is a hint on how to loop through all the keys and all the values in a hashmap.<br/>
-```
-// This loops through all the keys inside a hashmap
-HashMap<String, Weapon> weps = new ....
-weps.put("gun", new Weapon())
-weps.put("gun2", new Weapon())
-
-for (String i : weps.keySet()) {
-  System.out.println(i);
-}
-
-This will print out "gun" and "gun2"
-```
-
+1. Foreach Loop<br/>
+Create a hashmap of string and potions, this will be used to store potions <br/>
+Create an hashmap of string and integer, this will be used to store the effects of consumed potions <br/>
+The potions should have a name, effect and duration.
+Add some potions to the hashmap, the key being the name of the potion.
+Your game should be a loop that takes input.
+Something like: 1. drink random potion 2. wait 3. quit<br/>
+When you drink a potion, add the effect 
 
 <br/><br/>
 **Finish other homework**
-<br/>
-**------------Do this in a new class ------------**
-
-4. ArrayList problem<br/>
-Create an arraylist of string.<br/>
-Create an array of string.<br/>
-Fill the array with 10-20 names of food.<br/>
-add 5 random food to the arraylist from the array.<br/>
-Write a program that loops, and asks if you want to eat food or cook food.<br/>
-It should also show all the food available in the arraylist.<br/>
-If you pick to eat the food, it will then ask you for a food name.<br/>
-If the food exists in the arraylist, eat it and remove it from the list.<br/>
-If it doesn't, warn us that it doesn't exist and don't do anything.<br/>
-If there is no food in the first place, warn us and don't do anything.<br/>
-If you pick to cook food, add a random food from the array into the arraylist.<br/>
-Quit the loop by typing a letter / word / number of your choice.<br/>
 <br/>
 
 **------------Do this in your battle game ------------**
@@ -71,7 +31,7 @@ You should have error checking for cases when there are no enemies, or if the pl
 an enemy that doesn't exist (for example you have 3 enemies but the player chooses to attack enemy 7).<br/>
 Killing an enemy removes it from the arraylist, spawning an enemy adds it to the arraylist.<br/>
 A suggestion would be to have enemies spawn with a name and a random number attatched to that name so<br/>
-you can differentiate them. For example: Goblin522 Goblin234 Goblien745...<br/>
+you can differentiate them. For example: Goblin522 Goblin234 Goblin745...<br/>
 
 
 
