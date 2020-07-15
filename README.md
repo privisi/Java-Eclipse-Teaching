@@ -4,16 +4,49 @@ You can access everything we've done in the *src* folder
 
 Exercises for this week:
 
-**------------Do this in a new class ------------**
+**------------Do this in a new class ------------**<br/>
 
-1. Foreach Loop<br/>
+1. Foreach Loop.<br/>
+
 Create a hashmap of string and potions, this will be used to store potions <br/>
-Create an hashmap of string and integer, this will be used to store the effects of consumed potions <br/>
-The potions should have a name, effect and duration.
-Add some potions to the hashmap, the key being the name of the potion.
-Your game should be a loop that takes input.
-Something like: 1. drink random potion 2. wait 3. quit<br/>
-When you drink a potion, add the effect 
+Create an arraylist of string used for storing what effects you have from drinking potions.<br/>
+The potions should have a name (string), effect (string) and colour (string)<br/>
+Create a loop that takes user input: 1 drink random potions, 2 smash potion, 3 cleanse<br/>
+When you drink random potions, you have a 25% chance to drink each potion in the hashmap<br/>
+When you smash a potion, ask which potion you want to smash, and remove it from the hashmap.<br/>
+When a potion is drunk, display its name, effect and colour.<br/>
+Also add the effect into the arraylist<br/>
+When you choose cleanse, each effect should have a 25% chance of dissapearing.<br/><br/>
+In order to do this, you will probably need to use a foreach loop, as well as a forloop for deleting <br/>
+(look at the deletion example we did).<br/><br/>
+
+**------------Do this in a new class ------------**<br/>
+2. Read and Write to files.<br/>
+
+Create a loop that asks if you want to:<br/>
+Create a file, write to a file, read a file, or quit loop<br/>
+It should ask you for the file name after you pick an option<br/>
+<br/>
+**Bonus Challenge:**<br/>
+Create other options to: delete a file and to copy a files content to another file.<br/>
+
+Here is the code for reading from a file:
+```
+    try {
+      File myObj = new File("filename.txt");
+      Scanner myReader = new Scanner(myObj);
+      while (myReader.hasNextLine()) {
+        String data = myReader.nextLine();
+        System.out.println(data);
+      }
+      myReader.close();
+    } catch (FileNotFoundException e) {
+      System.out.println("An error occurred.");
+      e.printStackTrace();
+    }
+```
+
+
 
 <br/><br/>
 **Finish other homework**
