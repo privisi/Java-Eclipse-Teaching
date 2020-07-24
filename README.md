@@ -4,6 +4,30 @@ You can access everything we've done in the *src* folder
 
 Exercises for this week:
 
+**Do this in a new project**
+
+Recreate a simple version of your battle game but using javax.swing.<br/>
+You should have an application that lets you play this battle game using buttons.<br/>
+You should have text that displays the enemy and its details<br/>
+You should also have text that displays the hero and his details<br/>
+You should have buttons to do stuff like: attack, heal, run (quit) etc.<br/>
+If the hero does an action (such as attack or heal) the enemy should attack the hero back<br/>
+Game ends if you run, hero dies, or enemy dies.
+<br/>
+After you get that to work, you can try to implement some other elements such as <br/>
+- Colour the enemy / hero text.
+- Add colour / background to buttons (make the attack button a sword etc.)
+- A picture for the enemy and hero
+
+**You will definately have to search stuff up to do this exercise!!!!**
+
+I recommend this site for some of the basics:
+https://www.javatpoint.com/java-jbutton
+<br/><br/>
+
+
+**------------Fix last weeks homework ------------**<br/>
+
 **------------Do this in a new class ------------**<br/>
 
 1. Foreach Loop.<br/>
