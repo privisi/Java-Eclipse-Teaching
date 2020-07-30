@@ -33,23 +33,6 @@ Extend your application to:
 **------------Fix last weeks homework ------------**<br/>
 
 **------------Do this in a new class ------------**<br/>
-
-1. Foreach Loop.<br/>
-
-Create a hashmap of string and potions, this will be used to store potions <br/>
-Create an arraylist of string used for storing what effects you have from drinking potions.<br/>
-The potions should have a name (string), effect (string) and colour (string)<br/>
-Create a loop that takes user input: 1 drink random potions, 2 smash potion, 3 cleanse<br/>
-When you drink random potions, you have a 25% chance to drink each potion in the hashmap<br/>
-When you smash a potion, ask which potion you want to smash, and remove it from the hashmap.<br/>
-When a potion is drunk, display its name, effect and colour.<br/>
-Also add the effect into the arraylist<br/>
-When you choose cleanse, each effect should have a 25% chance of dissapearing.<br/><br/>
-Show all potions available and all active efects in each loop<br/>
-In order to do this, you will probably need to use foreach loops, as well as a forloop for deleting <br/>
-(look at the deletion example we did).<br/><br/>
-
-**------------Do this in a new class ------------**<br/>
 2. Read and Write to files.<br/>
 
 Create a loop that asks if you want to:<br/>
