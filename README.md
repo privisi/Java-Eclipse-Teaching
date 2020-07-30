@@ -25,6 +25,10 @@ I recommend this site for some of the basics:
 https://www.javatpoint.com/java-jbutton
 <br/><br/>
 
+Extend your application to:
+- use radio buttons to select heavy or light attack
+- have a text field that allows you to give an enemy a name
+- try to use some other elements if your own choice
 
 **------------Fix last weeks homework ------------**<br/>
 
