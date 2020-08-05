@@ -29,6 +29,9 @@ When you scroll the bar, it changes the number in the text field to where the sc
 For example: If the scroll bar is 25% of the way, the text field should say 25.0,<br/>
 If the scroll is 2/3rds of the way, the text field should say 66.66 or something close<br/>
 
+**Bonus Challenge**
+Make [this (click here)](http://www.java2s.com/Code/JavaImages/ScrollBarColorSelect.PNG)
+
 **------------Try bonus challenge ------------**<br/>
 
 **------------Do this in a new class ------------**<br/>
