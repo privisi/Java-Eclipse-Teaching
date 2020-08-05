@@ -6,6 +6,8 @@ Exercises for this week:
 
 **Do this in a new project**
 
+**Make sure you are using Lambda Expressions!!!**
+
 Make a java swing application that converts currency to other currencies.<br/>
 You should have a **combo box** that lets you select some currencies to convert from (such as aud, yen, usd etc.)<br/>
 You should have another **combo box** that lets you select some currencies to convert to (such as aud, yen, usd etc.)<br/>
