@@ -77,3 +77,5 @@ Here is the code for reading from a file:
 
 Make this using the MVC approach ->
 https://github.com/privisi/Java-Eclipse-Teaching-Appendix/raw/master/EvenOddGame.jar
+
+(yu will need to look up java swing timers)
