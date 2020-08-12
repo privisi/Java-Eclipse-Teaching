@@ -4,11 +4,13 @@ You can access everything we've done in the *src* folder
 
 Exercises for this week:
 
+### There is a major assessement at the bottom, you should try to finish everything else before doing it. If you cannot do / finish the other tasks, you should still do the major assessement ###
+
 **Re-implement this but with a currency converter**
 **Instead of 100 if else statements**
 **(You are not allowed to use IF statements for comparing currencies!)**
 
-Check this out (https://github.com/privisi/Java-Eclipse-Teaching-Appendix)
+Check this out for a currency converter example --> (https://github.com/privisi/Java-Eclipse-Teaching-Appendix)
 
 **Make sure you are using Lambda Expressions!!!**
 
@@ -37,7 +39,8 @@ If the scroll is 2/3rds of the way, the text field should say 66.66 or something
 
 **Make sure you are using the MVC approach**
 
-Again, Check this out (https://github.com/privisi/Java-Eclipse-Teaching-Appendix)
+Again, Check this out for a simple MVC exampme --> (https://github.com/privisi/Java-Eclipse-Teaching-Appendix)
+
 Make [this (click here)](http://www.java2s.com/Code/JavaImages/ScrollBarColorSelect.PNG)
 
 **------------Try do bonus challenge ------------**<br/>
@@ -70,4 +73,7 @@ Here is the code for reading from a file:
 
 
 
-<br/><br/>
+## Major Assessement ##
+
+Make this using the MVC approach ->
+https://github.com/privisi/Java-Eclipse-Teaching-Appendix/raw/master/EvenOddGame.jar
