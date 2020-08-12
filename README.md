@@ -4,7 +4,11 @@ You can access everything we've done in the *src* folder
 
 Exercises for this week:
 
-**Do this in a new project**
+**Re-implement this but with a currency converter**
+**Instead of 100 if else statements**
+**(You are not allowed to use IF statements for comparing currencies!)**
+
+Check this out (https://github.com/privisi/Java-Eclipse-Teaching-Appendix)
 
 **Make sure you are using Lambda Expressions!!!**
 
@@ -29,10 +33,14 @@ When you scroll the bar, it changes the number in the text field to where the sc
 For example: If the scroll bar is 25% of the way, the text field should say 25.0,<br/>
 If the scroll is 2/3rds of the way, the text field should say 66.66 or something close<br/>
 
-**Bonus Challenge**
+**------------Finish Making this------------**
+
+**Make sure you are using the MVC approach**
+
+Again, Check this out (https://github.com/privisi/Java-Eclipse-Teaching-Appendix)
 Make [this (click here)](http://www.java2s.com/Code/JavaImages/ScrollBarColorSelect.PNG)
 
-**------------Try bonus challenge ------------**<br/>
+**------------Try do bonus challenge ------------**<br/>
 
 **------------Do this in a new class ------------**<br/>
 2. Read and Write to files.<br/>
