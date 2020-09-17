@@ -2,7 +2,7 @@
 
 Exercises for this week:
 
-**1. Make the circles bounce off each other **
+**1. Make the circles bounce off each other**
 
 You should use the circle bouncing class we finished for last week.
 
