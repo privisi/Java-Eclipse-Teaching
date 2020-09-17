@@ -2,25 +2,30 @@
 
 Exercises for this week:
 
-**1. Modify the moving circle program so that you can go diagonal aswell**
+**1. Make the circles bounce off each other **
 
-**Challenge**
+You should use the circle bouncing class we finished for last week.
 
-**2. Make a mvc program that has a filled circle follow the mouse.**
+You might need to use the circles radius and https://www.mathsisfun.com/algebra/distance-2-points.html
 
-When you click the mouse, it should create / draw a circle where you clicked.
+**2. Make our bullets in the shooter game delete when they leave the screen**
 
-Bonus: make a second view that has a button to erase what you drew, and also circle settings such as size, colour etc/
+Currently the bullets go on forever even if they exit the screen, make sure to delete them when they exit the screen. We can confirm this by printing out the size of the bullets arraylist every loop.
 
-**Hard**
+**3. Create a player class for shooter to replace the current x, y stuff stored inside shooter**
 
-**3. Create a program that places 5 - 10 circles randomly.** <br/>
-The color and size are up to you but should be sensible.<br/>
-These circles should all move in random directions and when they hit the edge of the window, they should bounce.
+Just like how we created a bullet class to represent the bullets coordinates, movement, and drawing, we should do the same with the player. You should pass the movement booleans in as parameters to the player movement updating method.
 
-They should behave something like this: https://www.youtube.com/watch?v=Kxms-OtUXS0
+**4. Try to generate some enemies that float around the screen and shoots in a random direction **
 
-**Extreme**
+You should make an enemy class, the enemy class should be circles that bounce around the screen and occassionaly shoot a bullet in a random direction
 
-**3.5 Make the circles bounce off each other aswell**
+**5. Convert the bullet into an abstract class and create PlayerBullet and EnemyBullet**
 
+You should use PlayerBullet for the player, and EnemyBullet for the enemy.
+
+**6. Collision**
+
+**This works with the same logic as exercise 1**
+
+Make the player bullets kill enemies, and the enemy bullets kill the player if they touch.
