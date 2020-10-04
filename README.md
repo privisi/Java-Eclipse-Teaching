@@ -2,36 +2,31 @@
 
 Exercises for this week:
 
-**1. Change all coordinate related variables from int to float (If you haven't done it already)**
+### Using the code we used to shoot towards the mouse:
 
-**2. Make enemies spawn moving in random directions**
+**1. Make enemies spawn moving in random directions**
 
-**3. Make enemies shoot in random directions**
+**2. Make enemies shoot in random directions**
 
-**4. Implement collision between player and enemies, and player and enemy bullets (Player should die)**
+--------------------
 
-**5. When the player gets hit, display a game over screen. Allow the player to press "R" to restart the game (reset everything back to normal)**
+**1. Make a menu where you can click start to begin the game, or exit**
 
-**6. Make an enemy abstract class and replace the enemies you have as BasicEnemy**
+**2. Create an explosive enemy that when killed, explodes into several large balls that dissapear after a second**
 
-**7. Create a few different type of enemies, (small and fast), (large and slow), (weird movement pattern etc.)**
-
-**8. Assign your bullets damage values (declare in the abstract class and then initialize it in the children class)**
-
-**9. Assign your enemies different health values (So that some don't die in 1 hit)**
-
-**10. Have a random enemy spawn every few seconds somewhere that is atleast 100 pixels away from the player**
+You can be creative with this one
 
 ### Challenging (don't have to do in order)
 
 **1. Have random enemies spawn in from the top of the screen (Outside the window), this is hard because the enemies must enter from outside the window (y < 0) and not bounce, and then start bouncing when they are inside**
 
+The enemies shoud be able to spawn anywhere from the top of the screen (not just the top left corner)
+
 Hint - don't let the balls bounce when they are y > 0 until they first enter the visible area. (Remember how our coordinate system starts at 0,0 (Top left) and goes to 600,600 (bottom right) but stuff can be outside of the screen).
 
-**2. Oscillating bullets (Bullets that shake up and down, or side to side)**
+**2. Give your player health, so that they may receive multiple attacks from enemies and survive, and display the health via a red health bar somewhere.**
 
-Hint - Look into math sin and/or cos
+Instead of displaying your health as a number, do it via a red health bar, something like [this](https://as3gametuts.files.wordpress.com/2012/02/picture-18.png?w=640)
 
-You can give these bullets to an enemy
-
-**3. Give your player health, so that they may receive multiple attacks from enemies and survive, and display the health via a red health bar somewhere.**
+**3. Create a crosshair (Something that follows the mouse)**
+Try to get it to replace your cursor so that it looks something like [this](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Crosshairs_Red.svg/1200px-Crosshairs_Red.svg.png)
