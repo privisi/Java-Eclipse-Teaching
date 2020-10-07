@@ -8,23 +8,23 @@ Exercises for this week:
 
 You can be creative with this one
 
-**3. Create a save key in the that when pressed, saves the state of the game (enemy, player etc.)
+**3. Create a save key in the that when pressed, saves the state of the game (enemy, player etc.)**
 
 You don't have to save everything, just save what seems to be sensible.
 
-**4. Create a button in the menu that lets you load the game from the saved state.
+**4. Create a button in the menu that lets you load the game from the saved state.**
 
-**5. Create a drop item abstract class
+**5. Create a drop item abstract class**
 
-**6. Create some drops such as score, health drops etc.
+**6. Create some drops such as score, health drops etc.**
 
-**7. When an enemy is killed give it a random chance to drop something
+**7. When an enemy is killed give it a random chance to drop something**
 
-**8. The dropped item slowly falls down the screen and removes itself when it is out.
+**8. The dropped item slowly falls down the screen and removes itself when it is out.**
 
-**9. The player should be able to pickup the dropped item.
+**9. The player should be able to pickup the dropped item.**
 
-### Challenging (don't have to do in order)
+### Challenging (don't have to do in order)**
 
 **1. Have random enemies spawn in from the top of the screen (Outside the window), this is hard because the enemies must enter from outside the window (y < 0) and not bounce, and then start bouncing when they are inside**
 
