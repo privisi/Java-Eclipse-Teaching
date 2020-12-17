@@ -9,3 +9,5 @@
 4. Make a new enemy that fires an enemy bullet towards the player
 
 5. Clamp the player inside the camera (screen)
+
+Hint: You may need to use replace the movement mechanics from translate to movement via the rigidbody (google this)
